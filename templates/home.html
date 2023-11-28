@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+{% block content %}
+  <main id="main" class="main">
+    <div class="pagetitle">
+      <h1>Dashboard</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
+      </nav>
+      <div class="card-res-heading">
+        <div class="card-head">
+            <h4>Detect Disease From Following Fruites And Veggies</h4>
+        </div>
+      </div>
+      {% for data_key, data_value in disease_type_data.items() %}
+        <div style="width: 69rem; margin-bottom: 3rem;">
+          <div class="card" style="display: flex; flex-direction: row;">
+            <div class="col-md-4 col-sm-6 content-card" style="margin-right: 2rem;">
+              <div class="shadow p-3 bg-white rounded" style="margin-left:2.3rem; text-align: center; width: 15rem; font-weight: bold;">{{data_key}}</div>
+              <div class="card-big-shadow">
+                  <div class="card-disease card-just-text" data-background="color" data-color="blue" data-radius="none">
+                      <div class="content">
+                        <div class="card" style="padding: 0px; height: 250px; width: 19rem; border-radius: 0 51px 51px 0;">
+                          <img src={{data_value[-1]}} alt="" class="src">
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="data-content" id="data-change-helper">
+              <div style="height: 27rem;" class="card">
+                <div style="display: flex;">
+                  <span class="head-style">
+                    {% for key in data_value[0].keys() %}
+                      {%if key | length > 10 %}
+                        <h2 style="font-size: 2rem; padding-top: 5px; color: white; position: relative; right: 3rem;">{{key}}</h2>
+                      {%else%}
+                        <h2 style="font-size: 3rem; padding-top: 5px; color: white; position: relative; right: 3rem;">{{key}}</h2>
+                      {%endif%}
+                    <div style="height:6rem; width: 3rem; background-color: #f8f3e8; position: absolute; right: 11rem; border-radius: 50% 0 0 50%;"></div>
+                  </span>
+                  <img style="border-radius: 50%; height: 10rem; width: 12rem; position: absolute; right: 1rem;" src={{disease_image_data[key]}} />
+                </div>
+                  <div class="card-disease-data">
+                    {% for list_data in data_value[0].values() %}
+                      {% for bullets in list_data %}
+                        <i class="bi bi-arrow-right"></i>&nbsp;{{bullets}}<br><br>
+                      {%endfor%}
+                    {%endfor%}
+                  </div>
+                  {%endfor%}
+              </div>
+            </div>
+            <span class="next-info" style="cursor: pointer; position: relative; top: 14rem;" onclick="changedata()">
+              <i style="z-index: 100; font-size: 2.5rem; color: rgb(186, 47, 255);" class="bi bi-arrow-right-circle-fill"></i>
+            </span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </main>
+{% endblock content %}

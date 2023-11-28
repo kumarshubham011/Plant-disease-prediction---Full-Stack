@@ -1,0 +1,309 @@
+{
+    "type_disease": {
+        "Apple": [
+            {
+                "Black Rot Apple":["Black rot is an important disease of apple caused by the fungus Botryosphaeria obtusa.",
+                    "Black rot fungus infects a wide variety of hardwood trees, including apple and pear. Infected trees are often a source of infection for nearby younger bearing blocks.",
+                    "The black rot pathogen infects limbs, trunks, leaves and fruit resulting in reduced productivity and quality of yield.",
+                    "Leaf infections result in a disease called frog-eye leaf spot."
+                ]
+            }, 
+            {
+                "Cedar Apple Rust":["This fungus is wide spread in eastern North America. It is usually associated with rural areas that alternate between farmland and forest or thicket.",
+                    "Cedar apple rust is a member of the family Pucciniaceae, a group of fungi that contains many species that usually require two or more hosts to complete the life cycle.",
+                    "Members of this family are known as rusts because the color of many is orange or reddish at some point in the life cycle.",
+                    "This particular rust produces four kinds of spores: basidiospores, teliospores, spermatia, and aeciospores."
+                ]
+            }, 
+            {
+                "Healthy":[
+                    "An apple is a sweet, edible fruit produced by an apple tree (Malus domestic).",
+                    "The fruit has a characteristic stocky shape and often spherical, it is eaten when ripe, raw, cooked, or dried. Its juice is drunk fresh or pasteurized.",
+                    "It thrives in areas having a distinct winter period, generally from latitude 30° to 60°, both north and south.",
+                    "Apples are rich in fiber, vitamins, and minerals, all of which benefit human health. They also provideTrusted Source an array of antioxidants. These substances helpTrusted Source neutralize free radicals."
+                ]
+            },
+            "static/img/dashboard/apple.jpg"
+
+        ],
+        
+        "Blueberry": [
+            {
+                "Healthy": [
+                    "Blueberries are rich in anthocyanin, which may have antioxidant activity.",
+                    "It might be beneficial in reducing the oxidative stress and might play  a crucial role in blood sugar management- An increase in blood sugar levels are characterised by a poor response to insulin stimulation.",
+                    "The anthocyanin-rich blueberry might decrease glucose intolerance.",
+                    "Blueberry might be helpful in reducing the spread and enhancing the death of cancer cells."
+                ]
+            },
+            "static/img/dashboard/blueberry.jpg"
+        ],
+
+        "cherry": [
+            {
+                "Powdery Mildew":[
+                    "Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina, an obligate biotrophic fungus.",
+                    "Mid- and late-season sweet cherry (Prunus avium) cultivars are commonly affected, rendering them unmarketable due to the covering of white fungal growth on the cherry surface.",
+                    "Initial symptoms, often occurring 7 to 10 days after the onset of the first irrigation, are light roughly-circular, powdery looking patches on young, susceptible leaves.",
+                    "Older leaves develop an age-related (ontogenic) resistance to powdery mildew and are naturally more resistant to infection than younger leaves."
+                ]
+            }, 
+            {
+                "Healthy":["Cherries are a rich source of antioxidants, including anthocyanins and quercetin, which can help protect the body against damage caused by harmful free radicals.",
+                "Eating cherries may help reduce inflammation in the body, thanks to their high levels of anti-inflammatory compounds called polyphenols.",
+                "Cherries are a good source of fiber, which can help promote digestive health and keep you feeling full and satisfied.",
+                "Studies have shown that consuming cherries may help improve sleep quality and duration, as they contain natural melatonin, a hormone that helps regulate sleep patterns."
+                ]
+            },
+            "static/img/dashboard/cherry.webp"
+        ],
+        "Corn": [
+            {
+                "Cercospora Leaf Spot":["Cercospora Leaf Spot is a fungal disease that affects corn plants, causing circular or oval spots on the leaves that are grayish-brown in color with a reddish-purple border.",
+                "The fungus responsible for this disease can survive on crop debris or in the soil, and can be spread by wind, rain, or equipment.",
+                "Symptoms of Cercospora Leaf Spot typically appear in the mid to late stages of the corn plant's growth and development, and can result in reduced yields if left untreated.",
+                "Fungicides can be used to control the spread of this disease, and crop rotation can help prevent it from reoccurring in subsequent growing seasons. "
+            ]
+            },
+            {
+                "Gray Leaf Spot":["Gray Leaf Spot is a fungal disease that commonly affects corn plants, causing long, narrow gray or tan lesions on the leaves. ",
+                "The fungus responsible for this disease thrives in warm, humid environments, and can be spread by wind, rain, or infected crop residue.",
+                "Gray Leaf Spot can significantly reduce corn yields if left untreated, as it affects the plant's ability to produce food through photosynthesis.",
+                "Management strategies for this disease typically involve the use of fungicides, crop rotation, and tillage practices that promote good air circulation and soil drainage."
+            ]
+            },
+            {
+                "Common Rust":["Common Rust is a fungal disease that affects corn plants, causing small, circular or elongated brownish-orange pustules on the leaves, stems, and husks. ",
+                "This disease is caused by the fungus Puccinia sorghi and is spread by wind-borne spores.",
+                "While Common Rust does not usually cause significant yield losses, severe infections can lead to reduced grain quality and damage to the corn plant's photosynthetic capacity.",
+                "Fungicides are often used to control the spread of Common Rust, although genetic resistance is also an effective management strategy."
+        ]
+            },
+            {
+                "Northern Leaf Blight":["Northern Leaf Blight is a fungal disease that affects corn plants, causing cigar-shaped lesions on the leaves that are initially greenish-yellow and later turn brown.",
+                "The disease is caused by the fungus Exserohilum turcicum and can be spread by wind, rain, or infected crop residue.",
+                "Northern Leaf Blight can significantly reduce corn yields if left untreated, as it affects the plant's ability to produce food through photosynthesis.",
+                "Management strategies for this disease typically involve the use of fungicides, crop rotation, and tillage practices that promote good air circulation and soil drainage."
+            ]
+            },
+            {
+                "Healthy":["Corn is a good source of dietary fiber, which can help promote digestive health, reduce the risk of heart disease, and help manage blood sugar levels.",
+                "Corn contains high levels of antioxidants, including lutein and zeaxanthin, which can help protect the eyes against damage from harmful UV radiation.",
+                "Corn is rich in B vitamins, including thiamin, niacin, and folate, which are important for energy production, brain function, and cell growth.",
+                "Studies have shown that consuming corn may help lower levels of LDL cholesterol  in the body, potentially reducing the risk of heart disease."
+                ]
+            },
+            "static/img/dashboard/corn.jpg"
+        ],
+        "Grape": [
+            {
+                "Black rot Grape":["Black rot is a fungal disease that affects grapes, causing small, circular spots on the leaves that eventually turn black and can cause defoliation.",
+                "The disease can also affect grape clusters, causing the fruit to rot and become unmarketable.",
+                "Black rot is caused by the fungus Guignardia bidwellii, which can survive on infected crop debris and spread by wind, rain, or infected plant material.",
+                "Management strategies for black rot typically involve the use of fungicides, cultural practices such as pruning, and sanitation measures that reduce the risk of infection."
+            ]
+            },
+            {
+                "Esca (Black_Measles)":["Esca is a fungal disease that affects grapevines, causing leaf discoloration, dieback of shoots, and eventual death of the vine.",
+                "The disease is caused by a complex of fungi, including Phaeomoniella chlamydospora and Phaeoacremonium aleophilum, which can infect the grapevine through pruning wounds or other injuries.",
+                "Esca is a significant problem in many grape-growing regions, as it can lead to reduced yields and vine lifespan.",
+                "Management strategies for this disease typically involve cultural practices such as pruning and canopy management, as well as the use of fungicides and biological control agents."
+            ]
+            },
+            {
+                "Leaf Blight (Isariopsis_Leaf_Spot)":["Leaf blight is a fungal disease that affects grapevines, causing yellow or brown spots on the leaves that can eventually lead to defoliation.",
+                "The disease is caused by the fungus Guignardia bidwellii, which can overwinter on infected plant debris and spread through wind and rain.",
+                "Leaf blight can have a significant impact on grape production and wine quality, as it can reduce the plant's ability to produce sugars and lead to uneven ripening of the fruit.",
+                "Management strategies for leaf blight include the use of fungicides, cultural practices such as canopy management, and sanitation measures that reduce the risk of infection."
+            ]
+            },
+            {
+                "Healthy":["Grapes are a rich source of antioxidants, including resveratrol and flavonoids, which have been linked to a reduced risk of heart disease, cancer, and other chronic diseases.",
+                "Grapes are a good source of dietary fiber, which can help promote digestive health and reduce the risk of colon cancer.",
+                "Grapes contain vitamins and minerals such as vitamin C, potassium, and vitamin K, which are important for maintaining overall health and preventing nutrient deficiencies.",
+                "Grapes are a low-calorie, nutrient-dense food that can be part of a healthy diet."
+                ]
+            },
+            "static/img/dashboard/grape.jpg"
+        ],
+        "Orange": [
+            {
+                "Haunglongbing (Citrus Greening)":["Huanglongbing (HLB), also known as citrus greening, is a bacterial disease that affects citrus trees, including oranges.",
+                "The disease is caused by the bacteria Candidatus Liberibacter asiaticus, which is spread by the Asian citrus psyllid insect.",
+                "HLB is a serious threat to the citrus industry, as it can cause significant crop losses and reduce the lifespan of infected trees. ",
+                "Symptoms of HLB in orange trees include yellowing of the leaves, reduced fruit quality and quantity, and eventual tree decline."
+                ]
+            },
+            "static/img/dashboard/orange.jpg"
+        ],
+
+        "Peach": [
+            {
+                "Bacterial Spot":["Bacterial spot is a common bacterial disease that affects peach trees, causing dark lesions on the leaves, stems, and fruit.",
+                "The disease is caused by the bacterium Xanthomonas arboricola pv. pruni, which can overwinter in infected plant debris and spread through wind and rain.",
+                "Bacterial spot can have a significant impact on peach production, as it can reduce fruit quality and yield. ",
+                "Management strategies for this disease typically involve the use of copper-based fungicides, cultural practices such as pruning and sanitation, and the use of resistant peach varieties."
+                ]
+            },
+            {
+                "Healthy":["Peaches are a good source of vitamins and minerals, including vitamins A and C, potassium, and fiber.",
+                "Peaches are low in calories and can be a healthy addition to a balanced diet. A medium-sized peach contains only about 60-70 calories.",
+                "Peaches contain antioxidants, such as flavonoids and phenolic acids, which may help reduce the risk of chronic diseases like heart disease, diabetes, and cancer.",
+                "The fiber in peaches can help promote digestive health, regulate blood sugar levels, and reduce the risk of certain types of cancer."
+                ]
+            },
+            "static/img/dashboard/peach.jpg"
+        ],
+        "Pepper": [
+            {
+                "Bacterial Spot":["Bacterial spot is a common bacterial disease that affects pepper plants, causing circular or irregular-shaped spots on leaves and fruit.",
+                "The disease is caused by the bacterium Xanthomonas campestris pv. vesicatoria, which can be spread by water, wind, and insects.",
+                "Bacterial spot can cause significant crop losses for pepper growers and reduce the quality and marketability of the fruit.",
+                "Management strategies for this disease typically involve the use of copper-based fungicides, cultural practices such as crop rotation and sanitation, and the use of resistant pepper varieties."
+                ]
+            },
+            {
+                "Healthy":["Peppers are a good source of vitamins and minerals, including vitamin C, vitamin A, potassium, and fiber.",
+                "Peppers are low in calories and can be a healthy addition to a balanced diet. A medium-sized pepper contains only about 30-40 calories.",
+                "Peppers contain antioxidants, such as carotenoids and flavonoids, which may help reduce the risk of chronic diseases like heart disease, cancer, and inflammation.",
+                "The capsaicin in peppers, which gives them their spicy flavor, has been shown to have anti-inflammatory and pain-relieving properties and may help with weight loss by increasing metabolism."
+                ]
+            },
+            "static/img/dashboard/pepper_bell.jpg"
+        ],
+        "Potato": [
+            {
+                "Early Blight":["Early blight is a common fungal disease that affects potato plants, causing brown lesions on leaves and stems.",
+                "The disease is caused by the fungus Alternaria solani, which can overwinter in infected plant debris and spread through water and wind.",
+                "Early blight can cause significant yield losses for potato growers and reduce the quality of the tubers.",
+                "Management strategies for this disease typically involve the use of fungicides, cultural practices such as crop rotation and sanitation, and the use of resistant potato varieties."
+                ]
+            },
+            {
+                "Late Blight":["Late blight is a devastating fungal disease that affects potato plants, causing large, irregularly shaped lesions on leaves and stems, and can result in the complete destruction of the crop.",
+                "The disease is caused by the fungus Phytophthora infestans, which can overwinter in infected plant debris and spread through wind and rain.",
+                "Late blight can cause significant economic losses for potato growers, and the disease was responsible for the Irish potato famine in the 19th century. ",
+                "Management strategies for this disease typically involve the use of fungicides, cultural practices such as crop rotation and sanitation, and the use of resistant potato varieties."
+                ]
+            },
+            {
+                "Healthy":["Potatoes are a good source of vitamins and minerals, including vitamin C, potassium, and fiber.",
+                "Potatoes are low in calories and can be a healthy addition to a balanced diet, especially when boiled or baked rather than fried.",
+                "Potatoes contain resistant starch, which is a type of carbohydrate that can help regulate blood sugar levels and promote digestive health.",
+                "Potatoes are one of the world's most important food crops, with over 380 million metric tons produced annually, making them a staple food in many parts of the world."
+                ]
+            },
+            "static/img/dashboard/potato.jpg"
+        ],
+        "Raspberry": [
+            {
+                "Healthy":["Raspberries are a good source of vitamin C, dietary fiber, and antioxidants, which may help reduce the risk of chronic diseases like heart disease, cancer, and inflammation.",
+                "Raspberries are low in calories and sugar, making them a healthy addition to a balanced diet.",
+                "Raspberries have been shown to have anti-inflammatory properties and may help improve blood sugar control in people with type 2 diabetes.",
+                "Raspberries are a good source of ellagic acid, which has been shown to have anticancer properties and may help protect against the development of certain types of cancer."
+                ]
+            },
+            "static/img/dashboard/raspberry.webp"
+        ],
+        "Soybean": [
+            {
+                "Healthy":["Soybeans are a good source of plant-based protein and contain all nine essential amino acids required by the human body.",
+                "Soybeans are low in saturated fat and cholesterol, making them a healthy addition to a balanced diet.",
+                "Soybeans contain compounds called isoflavones, which have been shown to have potential health benefits, such as reducing the risk of certain types of cancer and improving heart health.",
+                "Soybeans are used to produce a variety of foods, including tofu, soy milk, and tempeh, as well as a range of industrial products, such as biodiesel and animal feed."
+                ]
+            },
+            "static/img/dashboard/soyabean.jpg"
+        ],
+        "Squash": [
+            {
+                "Powdery Mildew":["Powdery mildew is a fungal disease that affects a wide range of crops, including squash, and can significantly reduce crop yields.",
+                "Symptoms of powdery mildew in squash include the appearance of white or grayish powdery patches on the leaves, stems, and fruit of the plant.",
+                "Powdery mildew in squash can be managed through a combination of cultural practices, such as improving air circulation and reducing humidity around the plants, and the use of fungicides.",
+                "Early detection and treatment of powdery mildew in squash is crucial for effective disease management, as the fungus can spread rapidly and cause significant damage to the crop within a matter of days."
+                ]
+            },
+            "static/img/dashboard/squash.webp"
+        ],
+        "Strawberry": [
+            {
+                "Leaf Scorch":["Leaf scorch in strawberries is a condition that causes the leaves of the plant to turn brown and dry out, affecting the overall health and productivity of the plant.",
+                "Leaf scorch in strawberries can be caused by a variety of factors, including fungal diseases, bacterial infections, nutrient deficiencies, and environmental stressors.",
+                "Symptoms of leaf scorch in strawberries include brown or yellow spots on the leaves, with the edges of the spots turning brown and drying out.",
+                "Leaf scorch in strawberries can be managed through a combination of cultural practices, such as improving soil fertility and irrigation practices, and the use of fungicides or other treatments to address any underlying fungal or bacterial infections."
+                ]
+            },
+            {
+                "Healthy":["Strawberries are a good source of vitamin C, folate, potassium, and dietary fiber, which can help support overall health and well-being.",
+                "Strawberries are low in calories and sugar, making them a healthy addition to a balanced diet.",
+                "Strawberries contain antioxidants and anti-inflammatory compounds that may help reduce the risk of chronic diseases, such as heart disease, diabetes, and cancer.",
+                "Strawberries have been shown to have potential health benefits for skin health, cognitive function, and blood sugar control, among other areas."
+                ]
+            },
+            "static/img/dashboard/strawberry.jpg"
+        ],
+        "Tomato": [
+            {
+                "Bacterial Spot":["Bacterial spot is a common disease of tomato plants caused by the bacterium Xanthomonas campestris.",
+                "Symptoms of bacterial spot in tomato plants include small, water-soaked lesions on the leaves, stems, and fruit of the plant, which can later turn dark and sunken.",
+                "Bacterial spot in tomato plants can be spread through contaminated seed, plant debris, or by splashing water, and can be difficult to manage once established.",
+                "Control of bacterial spot in tomato plants typically involves a combination of cultural practices, such as crop rotation and proper irrigation practices, and the use of copper-based fungicides or other treatments to help reduce the spread of the disease."]
+            },
+            {
+                "Early Blight":["Early blight is a common fungal disease that affects tomato plants, caused by the fungus Alternaria solani.",
+                "Symptoms of early blight in tomato plants include the appearance of small, brown or black spots on the leaves, which can enlarge and form concentric rings, eventually causing the leaves to yellow and die.",
+                "Early blight in tomato plants can be spread through contaminated soil, plant debris, or splashing water, and is favored by warm and humid conditions.",
+                "Control of early blight in tomato plants typically involves a combination of cultural practices, such as crop rotation and proper irrigation practices, and the use of fungicides or other treatments to help reduce the spread of the disease."]
+            },
+            {
+                "Leaf Blight":["Late blight is a serious fungal disease that can affect tomato plants, caused by the pathogen Phytophthora infestans.",
+                "Symptoms of late blight in tomato plants include the appearance of dark, water-soaked lesions on the leaves, which can spread rapidly and cause the leaves to wilt and die.",
+                "Late blight in tomato plants is highly contagious and can spread quickly, especially in warm and humid conditions, and can lead to significant crop losses if left untreated.",
+                "Control of late blight in tomato plants typically involves a combination of cultural practices, such as crop rotation and proper irrigation practices, and the use of fungicides or other treatments to help reduce the spread of the disease."]
+            },
+            {
+                "Leaf Mold":["Leaf mold is a common fungal disease that affects tomato plants, caused by the pathogen Passalora fulva.",
+                "Symptoms of leaf mold in tomato plants include the appearance of yellow or brown spots on the leaves, which can enlarge and develop a fuzzy appearance.",
+                "Leaf mold in tomato plants is favored by warm and humid conditions, and can spread quickly in greenhouse environments or in areas with poor air circulation.",
+                "Control of leaf mold in tomato plants typically involves a combination of cultural practices, such as proper spacing and ventilation, and the use of fungicides or other treatments to help reduce the spread of the disease."]
+            },
+            {
+                "Septoria Leaf Spot":["Septoria leaf spot is a fungal disease that commonly affects tomato plants, caused by the pathogen Septoria lycopersici.",
+                "Symptoms of septoria leaf spot in tomato plants include the appearance of small, dark spots on the leaves, which can eventually cause the leaves to yellow and die.",
+                "Septoria leaf spot can spread quickly, especially in warm and humid conditions, and can lead to significant crop losses if left untreated.",
+                "Control of septoria leaf spot in tomato plants typically involves a combination of cultural practices, such as crop rotation and proper irrigation practices, and the use of fungicides or other treatments to help reduce the spread of the disease."]
+            },
+            {
+                "Spider Mites Two-spotted Spider Mite":["Two-spotted spider mites are a common pest that can cause significant damage to tomato plants by sucking the sap from the leaves, which can cause yellowing, wilting, and eventual death of the plant.",
+                "Symptoms of two-spotted spider mite damage in tomato plants include the appearance of small, yellow speckles on the leaves, which can eventually coalesce and cause significant damage.",
+                "Two-spotted spider mites can reproduce rapidly, especially in warm and dry conditions, and can be difficult to control once they become established.",
+                "Control of two-spotted spider mites in tomato plants typically involves a combination of cultural practices, such as regular monitoring and removal of infested leaves, and the use of insecticides or other treatments to help reduce the population of the pest."]
+            },
+            {
+                "Target Spot":["Target spot is a fungal disease that commonly affects tomato plants, caused by the pathogen Corynespora cassiicola.",
+                "Symptoms of target spot in tomato plants include the appearance of circular, dark brown lesions on the leaves, which can expand and develop a target-like appearance.",
+                "Target spot in tomato plants can be favored by warm and humid conditions, and can spread quickly, especially in areas with poor air circulation.",
+                "Control of target spot in tomato plants typically involves a combination of cultural practices, such as proper sanitation and removal of infested plant material, and the use of fungicides or other treatments to help reduce the spread of the disease."]
+            },
+            {
+                "Tomato Yellow Leaf Curl Virus":["Tomato Yellow Leaf Curl Virus (TYLCV) is a viral disease that can cause significant damage to tomato plants and reduce yields.",
+                "TYLCV is transmitted by the silverleaf whitefly, which can spread the virus from infected plants to healthy ones.",
+                "Symptoms of TYLCV in tomato plants include the appearance of yellowing and curling of the leaves, stunted growth, and reduced fruit production.",
+                "Control of TYLCV in tomato plants typically involves a combination of cultural practices, such as the use of reflective mulches and insecticides to control the whitefly population, and the use of resistant tomato varieties to help reduce the risk of infection."]
+            },
+            {
+                "Tomato Mosaic Virus":["Tomato mosaic virus (ToMV) is a viral disease that affects tomato plants and can result in reduced yields and quality of fruit.",
+                "ToMV can be transmitted mechanically, meaning it can spread from plant to plant through contaminated tools, hands or machinery.",
+                "Symptoms of ToMV in tomato plants include yellowing and mosaic-like patterns on the leaves, as well as distorted and stunted growth.",
+                "Control of ToMV in tomato plants includes the use of resistant varieties, as well as the implementation of cultural practices such as proper sanitation to prevent the spread of the virus."]
+            },
+            {
+                "Healthy":["Tomatoes are a member of the nightshade family and are one of the most popular garden vegetables in the world.",
+                "Tomatoes are rich in vitamins A and C, as well as potassium, fiber, and antioxidants.",
+                "Tomatoes are versatile and can be eaten raw or cooked in a variety of dishes, such as salads, sauces, and soups.",
+                "There are thousands of tomato varieties, ranging in size, shape, and color, including beefsteak, cherry, grape, and heirloom tomatoes."]
+            },
+            "static/img/dashboard/tomato.jpeg"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% block content %}
+<main id="main" class="main">
+  <div class="pagetitle">
+    <h1>AI ENGINE</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">AI Engine</li>
+        </ol>
+      </nav>
+      {% if message%}
+         {{message}}
+      {% endif %}
+      <form action={{url_for('submit_file')}} method="POST" enctype="multipart/form-data">
+        <div id="FileUpload">
+          <div class="wrapper">
+            <div class="drop-zone">
+              <span class="drop-zone__prompt upload__button">Drop file here or click to Browse</span>
+              <input type="file" id="actual-btn" hidden name="image" />
+              <input type="file" name="myFile" class="drop-zone__input">
+            </div>
+            <div class="uploaded uploaded--one">
+              <div class="file">
+                <div id="filenameadd">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="justify-content: center; align-items: center; text-align: center;">
+          <a><button type="submit" class="btn btn-success">Submit</button></a>
+        </div>
+      </form>
+    </div>
+  </main>
+{% endblock content %}

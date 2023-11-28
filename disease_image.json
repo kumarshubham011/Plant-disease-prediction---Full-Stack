@@ -1,0 +1,13 @@
+{
+    "images":{
+        "Healthy": "static/img/dashboard/blueberry_leave.jpg",
+        "Black Rot Apple": "static/img/dashboard/apple-black-rot.jpg",
+        "Powdery Mildew": "static/img/dashboard/cherry_leave.jpg",
+        "Cercospora Leaf Spot": "static/img/dashboard/corn_leave.jpg",
+        "Black rot Grape": "static/img/dashboard/grape_leave.jpg",
+        "Haunglongbing (Citrus Greening)": "static/img/dashboard/orange_leave.jpg",
+        "Bacterial Spot": "static/img/dashboard/peach_leave.jpg",
+        "Early Blight": "static/img/dashboard/potato_leave.jpeg",
+        "Leaf Scorch": "static/img/dashboard/strawberry_leave.jpg"
+    }
+}

@@ -1,0 +1,64 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <main id="main" class="main">
+        <div class="pagetitle">
+            <h1>MODEL GRAPHS</h1>
+            <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active">Graphs</li>
+                </ol>
+            </nav>
+            <div class="card-res-heading">
+                <div class="card-head">
+                    <h4>Training and Validation Graphs</h4>
+                </div>
+            </div>
+            <div class="chart_container" >
+                <div class="model-box">
+                    <div class="inner">
+                        <span>Inception V3</span>
+                    </div>
+                    <div class="inner">
+                        <span>Inception V3</span>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="chart-wrapper" style="margin-right: 5rem;">
+                        <img src="static/img/training_and_validation_accuracy.jpeg" alt="">
+                    </div>
+                    <div class="chart-wrapper" style="margin-left: 10rem;">
+                        <img src="static/img/training_and_validation_loss.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="chart_container" >
+                <div class="model-box">
+                    <div class="inner">
+                        <span>MOBILE NET</span>
+                    </div>
+                    <div class="inner">
+                        <span>MOBILE NET</span>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="chart-wrapper" style="margin-right: 5rem;">
+                        <img src="static/img/mobilient_accuracy.jpeg" alt="">
+                    </div>
+                    <div class="chart-wrapper" style="margin-left: 10rem;">
+                        <img src="static/img/mobilient_loss.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card-res-heading">
+                <div class="card-head">
+                    <h4>Inception and Resnet Confusion Matrix</h4>
+                </div>
+            </div>
+            <div class="chart_container">
+                <div class="chart-wrapper" style="margin-right: 5rem; width: 67rem; height: 60rem;">
+                    <img style="width: 67rem;" src="static/img/confusion_matrix.jpeg" alt="">
+                </div>
+            </div>
+    </main>
+{% endblock content %}

@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <main id="main" class="main">
+        <section class="msger">
+            <header class="msger-header">
+            <div class="msger-header-title">
+                <i class="fas fa-comment-alt"></i> SimpleChat
+            </div>
+            <div class="msger-header-options">
+                <span><i class="fas fa-cog"></i></span>
+            </div>
+            </header>
+        
+            <main class="msger-chat">
+                {% for data in chat_data %}
+                    {% if loop.index0 % 2 != 0 %}
+                        <div class="msg left-msg">
+                            <div class="msg-img" style="background-image: url(https://media.istockphoto.com/id/1010001882/vector/%C3%B0%C3%B0%C2%B5%C3%B1%C3%B0%C3%B1%C3%B1.jpg?s=612x612&w=0&k=20&c=1jeAr9KSx3sG7SKxUPR_j8WPSZq_NIKL0P-MA4F1xRw=)"></div>
+                            <div class="msg-bubble">
+                                <div class="msg-info">
+                                    <div class="msg-info-name">BOT</div>
+                                    <div class="msg-info-time">{{data['content'].split(';')[-1]}}</div>
+                                </div>
+                                <div class="msg-text">
+                                    {{data['content'].split(';')[0]}}
+                                </div>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="msg right-msg">
+                            <div class="msg-img" style="background-image: url(https://static.vecteezy.com/system/resources/previews/003/465/931/non_2x/awesome-cool-monkey-with-glasses-mascot-vector.jpg)"></div>
+                                <div class="msg-bubble">
+                                <div class="msg-info">
+                                    <div class="msg-info-name">You</div>
+                                    <div class="msg-info-time">{{data['content'].split(';')[-1]}}</div>
+                                </div>
+                                <div class="msg-text">
+                                    {{data['content'].split(';')[0]}}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </main>
+        
+            <form action="/submit_comment" method="post" class="msger-inputarea">
+            <input type="text" name="my_input" class="msger-input" placeholder="Enter your message..." autocomplete="off">
+            <button type="submit" class="msger-send-btn">Send</button>
+            </form>
+        </section>
+    </main>
+{% endblock content %}
